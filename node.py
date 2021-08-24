@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Aug 24 14:00:07 2021
+
+@author: Natasha Camargo
+"""
+class Node:
+    def __init__(self, value, link_node=None):
+        self.value = value
+        self.link_node = link_node
+        
+    def set_link_node(self, link_node):
+        self.link_node = link_node
+        
+    def get_link_node(self):
+        return self.link_node
+    
+    def get_value(self):
+        return self.value
+    
